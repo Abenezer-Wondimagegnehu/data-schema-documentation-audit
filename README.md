@@ -41,7 +41,7 @@ No real database credentials are included. Sample metadata is used to safely dem
 ## Repository Structure
 
 The repository is organized as follows for clarity and maintainability:
-
+```
 data-schema-documentation-audit/
 ├── docs/                         # Documentation and summary reports
 │   └── audit_summary.md          # Detailed Markdown summary of the database vs. documentation gap analysis
@@ -52,7 +52,7 @@ data-schema-documentation-audit/
 ├── .gitignore                    # Git ignore file to exclude temporary or sensitive files
 ├── LICENSE                       # License file (e.g., MIT) for the project
 └── README.md                     # This file: Project overview and repository guide
-
+```
 
 - **docs/**: Holds human-readable summaries and reports, such as the full gap analysis.
 - **notebooks/**: Contains interactive code for the audit process (e.g., querying schemas, comparing data).
